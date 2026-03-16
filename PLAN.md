@@ -1,2 +1,2 @@
 - 똑같은 IP에 대한 문제
-- 
+- config file DB config schema 관리로 변경
