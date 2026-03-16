@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: cinema-notify
+    runtime: docker
+    plan: free
+    buildFilter:
+      paths:
+        - src/**
+    envVars:
+      - key: DISCORD_WEBHOOK_URL
+        sync: false

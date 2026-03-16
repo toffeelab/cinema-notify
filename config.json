@@ -1,0 +1,13 @@
+{
+  "checkIntervalMin": 3,
+  "checkDaysAhead": 7,
+  "targets": [
+    {
+      "provider": "cgv",
+      "cinemaCode": "0013",
+      "cinemaName": "용산아이파크몰",
+      "hallTypes": ["4DX"],
+      "movieFilter": ["F1"]
+    }
+  ]
+}
